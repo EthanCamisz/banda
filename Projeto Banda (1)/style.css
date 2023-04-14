@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#img-karine{
+    background-image: url(./img/TGYFfSnz_400x400.png);
+    background-size:cover ;
+    width: 40rem;
+    height: 35rem;
+}
+
+#img-pessoa{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.imgEnomes{
+    display: flex;
+    padding-top: 26rem;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    display: flex;
+    align-items: flex-end;
+}
+#img-ethan{
+    background-image: url(./img/piercetheveil.jpg);
+    background-size:cover ;
+    width: 40rem;
+    height: 35rem;
+
+}
+
+#img-Jose{
+    background-image: url(./img/linkin-park1.jpg);
+    background-size:cover ;
+    width: 40rem;
+    height: 35rem;
+
+}
+
+
+

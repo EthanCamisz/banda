@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: gray;
+}
+
+/* foto principal */
+img{
+    align-items: center;
+    margin: 45px;
+    padding: 45px;
+    position: top;
+}
+/* Centralização dos audio e nomes */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.texto{
+    color:#fff  ;
+}
+/* cores das duas h3  (Sobre a banda e Clip*/
+h3{ 
+    font-size: 40px;
+    color:#fff
+}
+
+main{
+    margin-top: 34px;
+}
+
+caixa2{
+    position: absolute;
+width: 726px;
+height: 348px;
+left: 20px;
+top: 1861px;
+
+background: #D9D9D9;
+
+}
+
+.container{
+    margin: 100px;
+    padding: 50px;
+    background-color: #4b5b5b ;
+
+}
+
+h1{
+    font-size: 40px;
+    position:relative;
+    color:#fff
+}
+
+.caixas-container{
+max-width: 1200px;
+margin: auto;
+gap: 1rem;
+display: grid;
+grid-template-areas: 
+'caixa1 caixa1'
+'caixa2 caixa2'
+'caixa3 caixa3';
+}

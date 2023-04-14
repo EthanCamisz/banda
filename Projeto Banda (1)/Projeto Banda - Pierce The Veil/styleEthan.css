@@ -1,0 +1,104 @@
+body{
+    background-color: #e6e2d2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.bandaimg{
+    background: url(./imgs/cropped-ptv-gif-tumblr.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 198vh;
+}
+.box1{
+
+    height: 51vh;
+    width: 198vh;
+    border-radius: 3%;
+}
+.sobre{
+    font-family: 'Inter';
+font-size: 48px;
+font-weight: 700px;
+line-height: 98px;
+letter-spacing: 0em;
+text-align:start;
+
+
+
+}
+.historia{
+    font-family: 'Inter';
+    font-size: 23px;
+    font-weight: 700px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align:start;
+}
+
+.mfavs{
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align:start;
+    
+}
+.musics1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    gap: 8px;
+    height: 100px;
+}
+.album1{
+width: 100px;
+height: 100px;
+}
+.audio{
+    width: 30%;
+
+}
+.album2{
+    width: 100px;
+height: 100px;
+}
+
+.album3{
+    width: 100px;
+    height: 100px;
+    }
+  
+    .album4{
+        width: 100px;
+    height: 100px;
+    }
+ 
+    .musics2{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        gap: 8px;
+    
+    }
+    .cfavs{
+        font-family: 'Inter';
+        font-size: 48px;
+        font-weight: 700px;
+        line-height: 98px;
+        letter-spacing: 0em;
+        text-align:start;
+        
+    }
+    .clipes{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
